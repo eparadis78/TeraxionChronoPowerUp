@@ -40,7 +40,7 @@ var getFrontBadges = function(t){
 					card.customFieldItems.forEach(field => {
 						if (field.idCustomField == "5d9239e35727f464345c44e4"){
 							tempsres = field.value.number
-						} else if (field.idCustomField == "5d9239313f6ac6712c0defbb"){
+						} else if (field.idCustomField == "5ddd8c5b207e1d4820df6c15"){  //5d9239313f6ac6712c0defbb
 							var temp = new Date(field.value.date)
 							ouverture = Math.round(temp.getTime()/(1000*60))						
 						}
